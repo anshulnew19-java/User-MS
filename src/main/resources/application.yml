@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: User-MS
+  config:
+    import: configserver:http://localhost:1111
+server:
+  port: 7071
